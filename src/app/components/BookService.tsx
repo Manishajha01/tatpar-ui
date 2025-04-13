@@ -71,7 +71,7 @@ const BookService: React.FC = () => {
                 setResponseMsg("✅ Form submitted successfully!");
                 console.log("Response:", res.data);
                 setIsPending(false);
-            } catch (err: any) {
+            } catch (err: unknown) {
                 console.error("Error submitting form:", err);
                 setResponseMsg("❌ Failed to submit form.");
             }
