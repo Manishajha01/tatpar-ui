@@ -95,7 +95,7 @@ const BookService: React.FC = () => {
                                         name="name"
                                         value={formData.name}
                                         onChange={handleChange}
-                                        className="w-full px-2 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
+                                        className="w-full px-1 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
                                     />
                                     {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
                                 </div>
@@ -110,7 +110,7 @@ const BookService: React.FC = () => {
                                         onChange={handleChange}
                                         placeholder="1234567890"
                                         maxLength={10}
-                                        className="w-full px-2 py-6 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
+                                        className="w-full px-1 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
                                     />
                                     {errors.number && <p className="text-red-500 text-sm">{errors.number}</p>}
                                 </div>
@@ -122,7 +122,7 @@ const BookService: React.FC = () => {
                                         name="address"
                                         value={formData.address}
                                         onChange={handleChange}
-                                        className="w-full px-4 py-6 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
+                                        className="w-full px-1 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
                                     />
                                 </div>
 
@@ -134,7 +134,7 @@ const BookService: React.FC = () => {
                                         name="date"
                                         value={formData.date}
                                         onChange={handleChange}
-                                        className="w-full px-4 py-6 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
+                                        className="w-full px-1 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
                                     />
                                 </div>
 
@@ -145,7 +145,7 @@ const BookService: React.FC = () => {
                                         name="description"
                                         value={formData.description}
                                         onChange={handleChange}
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
+                                        className="w-full px-1 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FFD700]"
                                     />
                                 </div>
 
@@ -190,7 +190,7 @@ const BookService: React.FC = () => {
                                 {isPending ?
                                     <input
                                         type="submit"
-                                        className="w-full bg-[#FFD700] hover:bg-[#F39C12] text-[#2C3E50] font-poppins font-semibold px-6 py-6 rounded-md transition duration-300"
+                                        className="w-full bg-[#FFD700] hover:bg-[#F39C12] text-[#2C3E50] font-poppins font-semibold px-4 py-4 rounded-md transition duration-300"
                                     >
 
                                     </input>

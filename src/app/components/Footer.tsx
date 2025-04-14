@@ -13,7 +13,7 @@ export default function Footer() {
                     <div>
                         <a href="#" className="inline-block mb-4">
                             <span className="text-white font-poppins font-bold text-2xl">
-                                <span className="text-[#FFD700]">M</span>istri
+                                <span className="text-[#FFD700]">T</span>atparr
                             </span>
                         </a>
                         <p className="font-open-sans text-gray-300 mb-4">
@@ -131,7 +131,7 @@ export default function Footer() {
 
                 <div className="border-t border-gray-700 pt-6 text-center">
                     <p className="font-open-sans text-gray-400">
-                        &copy; {new Date().getFullYear()} Mistri. All rights reserved. Home Services in 10 Minutes.
+                        &copy; {new Date().getFullYear()} Tatparr. All rights reserved. Home Services in 10 Minutes.
                     </p>
                 </div>
             </div>

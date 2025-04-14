@@ -18,7 +18,7 @@ export default function Header() {
             <div className="container mx-auto px-4 py-3 flex justify-between items-center">
                 <Link href="/" className="flex items-center">
                     <span className="text-[#2C3E50] font-poppins font-bold text-2xl">
-                        <span className="text-[#F39C12]">M</span>istri
+                        <span className="text-[#F39C12]">T</span>atparr
                     </span>
                 </Link>
 
