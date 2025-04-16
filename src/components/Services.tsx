@@ -43,7 +43,7 @@ export default function Services() {
                 <div className="text-center mb-12">
                     <h2 className="font-poppins font-bold text-3xl md:text-4xl text-[#2C3E50] mb-4">Our Services</h2>
                     <p className="font-open-sans text-lg text-[#333333]/80 max-w-2xl mx-auto">
-                        Professional home services delivered to your doorstep in just 10 minutes. Our experts are trained, verified, and ready to help.
+                        Professional home services delivered to your doorstep. Our experts are trained, verified, and ready to help.
                     </p>
                 </div>
 

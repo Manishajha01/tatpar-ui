@@ -3,8 +3,9 @@ export default function Faqs() {
     const faqs = [
         {
             question: "How quickly can I expect a service professional to arrive?",
-            answer: "For emergency services, we guarantee a professional will arrive within 10 minutes of booking confirmation. For regular appointments, you can schedule a time that works best for you, and our professionals will arrive within the specified time slot."
-        },
+            answer: "For emergency services, we guarantee a professional will arrive at the earliest or within a day of booking confirmation. For regular appointments, you can schedule a time that works best for you, and our professionals will arrive within the specified time slot."
+        }
+        ,
         {
             question: "Are your service professionals verified?",
             answer: "Yes, all our professionals undergo thorough background checks, skill verification, and training before joining our platform. We ensure they are licensed (where applicable) and fully qualified to perform their respective services."
@@ -15,8 +16,9 @@ export default function Faqs() {
         },
         {
             question: "Do you offer any warranty on services?",
-            answer: "Yes, we stand behind our work with a 30-day service warranty. If you face any issues with the work performed within 30 days, we'll send a professional to fix it at no additional cost."
-        },
+            answer: "Warranty coverage depends on the type of service opted for, but yes, we do offer warranties. Specific warranty details will be provided at the time of booking or can be found in the service description."
+        }
+        ,
         {
             question: "What areas do you service?",
             answer: "We currently service major metropolitan areas and their surrounding suburbs. Please enter your location on our booking form to check if we provide services in your area."

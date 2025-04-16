@@ -6,7 +6,7 @@ export default function Hero() {
             <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center">
                 <div className="md:w-1/2 text-center md:text-left md:pr-12">
                     <h1 className="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl leading-tight mb-4">
-                        Professional Home Services in <span className="text-[#FFD700]">10 Minutes</span>
+                        Professional Home Services At <span className="text-[#FFD700]">Your Door-step</span>
                     </h1>
                     <p className="font-open-sans text-lg md:text-xl mb-8 text-gray-700">
                         Expert plumbers, electricians, painters, and carpenters at your doorstep. Verified professionals, transparent pricing, and satisfaction guaranteed.

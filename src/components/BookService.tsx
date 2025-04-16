@@ -213,7 +213,7 @@ const BookService: React.FC = () => {
                     </div>
                 </div>
             </div >
-
+            {/* 
             {isPending && (
                 <div className="mt-6 p-4 border rounded bg-gray-50">
                     <h3 className="font-semibold mb-2">📋 Submitted Data:</h3>
@@ -221,7 +221,7 @@ const BookService: React.FC = () => {
                     <p><strong>Phone:</strong> {formData.number}</p>
                     <p><strong>Service:</strong> {formData.service}</p>
                 </div>
-            )}
+            )} */}
 
 
         </section >

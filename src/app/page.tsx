@@ -1,15 +1,15 @@
 "use client";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Stats from "./components/Stats";
-import Services from "./components/Services";
-import HowItWorks from "./components/HowItWorks";
-import BookService from "./components/BookService";
-import Testimonials from "./components/Testimonials";
-import Faqs from "./components/Faqs";
-import Cta from "./components/Cta";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Stats from "../components/Stats";
+import Services from "../components/Services";
+import HowItWorks from "../components/HowItWorks";
+import BookService from "../components/BookService";
+// import Testimonials from "../components/Testimonials";
+import Faqs from "../components/Faqs";
+import Cta from "../components/Cta";
 // import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
         <Stats />
         <Services />
         <HowItWorks />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Faqs />
         <Cta />
         {/* <Contact /> */}

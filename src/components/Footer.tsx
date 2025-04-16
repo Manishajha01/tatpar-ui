@@ -17,7 +17,7 @@ export default function Footer() {
                             </span>
                         </a>
                         <p className="font-open-sans text-gray-300 mb-4">
-                            Professional home services delivered in 10 minutes by verified experts.
+                            Professional home services at your doorstep by verified experts.
                         </p>
                         <div className="flex space-x-4">
                             <a href="#" className="text-white hover:text-[#FFD700] transition duration-300">
@@ -131,7 +131,7 @@ export default function Footer() {
 
                 <div className="border-t border-gray-700 pt-6 text-center">
                     <p className="font-open-sans text-gray-400">
-                        &copy; {new Date().getFullYear()} Tatparr. All rights reserved. Home Services in 10 Minutes.
+                        &copy; {new Date().getFullYear()} Tatparr. All rights reserved. Home Services Made Easy.
                     </p>
                 </div>
             </div>

@@ -8,7 +8,7 @@ export default function HowItWorks() {
         {
             number: 2,
             title: "Book An Appointment",
-            description: "Schedule a convenient time or opt for our 10-minute emergency response service."
+            description: "Schedule a convenient time or opt for our emergency response service."
         },
         {
             number: 3,
