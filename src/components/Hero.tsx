@@ -31,15 +31,15 @@ export default function Hero() {
                         <Image
                             src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                             alt="Professional home service"
-                            width={200}
-                            height={150}
+                            width={500}
+                            height={350}
                             className="rounded-lg shadow-xl object-cover z-10 relative ml-4 "
                         />
                         <Image
                             src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
                             alt="Professional home service second"
-                            width={200}
-                            height={150}
+                            width={500}
+                            height={350}
                             className="rounded-lg shadow-xl absolute top-10 -left-6 z-0 w-5/6"
                         />
                     </div>
