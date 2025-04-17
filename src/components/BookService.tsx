@@ -12,7 +12,7 @@ const BookService: React.FC = () => {
         name: "",
         number: "",
         address: "",
-        date: "",
+        date: new Date().toISOString().split("T")[0], // <-- today's date in YYYY-MM-DD,
         description: "",
         service: "",
         // fastservice: false
