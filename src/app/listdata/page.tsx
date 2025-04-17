@@ -19,7 +19,7 @@ const QueryCards = () => {
 
     useEffect(() => {
         axios
-            .get(`${process.env.NEXT_PUBLIC_BASE_URL}/v0/queries/all`)
+            .get(`${process.env.NEXT_PUBLIC_BASE_URL}/queries/all`)
             .then((response) => {
                 setData(response.data);
                 setLoading(false);
